@@ -42,6 +42,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sDrillAnimated","path":"sprites/sDrillAnimated/sDrillAnimated.yy",},},
     {"id":{"name":"sDrillStop","path":"sprites/sDrillStop/sDrillStop.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"sTunnel","path":"sprites/sTunnel/sTunnel.yy",},},
   ],
   "resourceType":"GMProject",
