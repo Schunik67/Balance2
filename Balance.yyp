@@ -36,6 +36,7 @@
   "name":"Balance",
   "resources":[
     {"id":{"name":"obj_bohrer","path":"objects/obj_bohrer/obj_bohrer.yy",},},
+    {"id":{"name":"obj_resources","path":"objects/obj_resources/obj_resources.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
