@@ -1,0 +1,5 @@
+draw_set_valign(fa_top)
+draw_set_halign(fa_left)
+draw_text(x, y, coal )
+draw_text(x, y+20, wood )
+draw_text(x, y+40, iron)
