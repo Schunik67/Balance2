@@ -6,6 +6,7 @@ shop_header = "Upgrade"
 shop_des="DES"
 coal_price=0
 iron_price=0
+wood_price=0
 
 
 maxspeed_mod=1

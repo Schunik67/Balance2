@@ -1,5 +1,5 @@
 
-if(!paused){
+if(!paused ){
 time++
 
 if(time%cycle_time==0){

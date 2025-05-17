@@ -20,5 +20,5 @@ iron_speed=1
 
 
 
-coal=10
-iron=0
+coal=50
+iron=50

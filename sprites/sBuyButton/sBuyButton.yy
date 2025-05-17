@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
-  "%Name":"sShopbg",
-  "bboxMode":0,
-  "bbox_bottom":99,
-  "bbox_left":0,
-  "bbox_right":149,
-  "bbox_top":0,
+  "%Name":"sBuyButton",
+  "bboxMode":2,
+  "bbox_bottom":91,
+  "bbox_left":5,
+  "bbox_right":66,
+  "bbox_top":72,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -20,9 +20,8 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c0f35329-14b1-4b76-a046-494e35a2410c","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"c0f35329-14b1-4b76-a046-494e35a2410c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"ebc67a3d-bfba-4116-81d7-b86bd48c1487","blendMode":0,"displayName":"default","isLocked":false,"name":"ebc67a3d-bfba-4116-81d7-b86bd48c1487","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sShopbg",
+  "name":"sBuyButton",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -34,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"sShopbg",
+    "%Name":"sBuyButton",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sShopbg",
+    "name":"sBuyButton",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -72,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"de913c63-fabf-4e15-8c9b-bfd2787f6046","path":"sprites/sShopbg/sShopbg.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"de913c63-fabf-4e15-8c9b-bfd2787f6046","path":"sprites/sBuyButton/sBuyButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e4017767-b3cf-45d3-a98f-42dbe9b1fdc5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
