@@ -1,0 +1,1 @@
+audio_play_sound(sfx_bg_music, 1000, true, 0.08)

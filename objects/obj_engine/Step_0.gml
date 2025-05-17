@@ -1,4 +1,4 @@
-
+ 
 if(!paused ){
 time++
 
