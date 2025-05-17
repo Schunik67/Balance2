@@ -1,5 +1,7 @@
 level =0
 xp=0
+time=0
+cycle_time=10
 
 scrolling = true
 scroll_offset = 0;
