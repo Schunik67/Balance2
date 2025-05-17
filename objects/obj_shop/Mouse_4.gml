@@ -1,0 +1,9 @@
+if(prerequisite){
+obj_engine.engine_speed*=enginespeed_mod
+obj_engine.effectivness*=effectivness_mod
+obj_engine.storage*=storage_mod
+obj_bohrer.efficiency*=efficency_mod
+obj_bohrer.bohrer_max_speed*=maxspeed_mod
+obj_bohrer.coal-=coal_price
+obj_bohrer.iron-=iron_price
+}
