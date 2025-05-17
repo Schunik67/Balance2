@@ -5,10 +5,14 @@ function scr_open_shop(name,prices,des){
 	obj_shop.shop_des=des
 	obj_shop.coal_price=prices[0]
 	obj_shop.iron_price=prices[1]
-	if(obj_bohrer.coal-coal_price>=0 &&obj_bohrer.iron-iron_price>=0)
-{
-obj_shop.prerequesite=true
-}else{obj_shop.prerequesite=false}
+	
+	obj_shop.prerequesite=(obj_bohrer.coal>coal_price && obj_bohrer.iron>iron_price)
+maxspeed_mod=1
+efficency_mod=1
+effectivness_mod=1
+enginespeed_mod=1
+storage_mod=1
+
 	
 	
 	scr_pause()
