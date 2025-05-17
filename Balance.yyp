@@ -59,6 +59,7 @@
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"sShopbg","path":"sprites/sShopbg/sShopbg.yy",},},
     {"id":{"name":"sShoptop","path":"sprites/sShoptop/sShoptop.yy",},},
+    {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},},
     {"id":{"name":"sTunnel","path":"sprites/sTunnel/sTunnel.yy",},},
   ],
   "resourceType":"GMProject",

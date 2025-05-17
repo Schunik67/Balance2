@@ -8,9 +8,9 @@ if scrolling == true {
 time++
 if(time%cycle_time==0 && !obj_bohrer.paused){
 
-coal+=random(coalspeed*efficiency)
-iron+=random(efficiency*ironspeed)
-gold+=random(efficiency*ironspeed)
+coal+=random(coal_speed*efficiency)
+iron+=random(efficiency*iron_speed)
+gold+=random(efficiency*gold_speed)
 
 
 }
