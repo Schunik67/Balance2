@@ -8,6 +8,7 @@ shop_des="DES"
 prices=[0,0,0,0,0]
 pricestring=""
 
+plantid=noone
 slotbuy=false
 
 maxspeed_mod=1

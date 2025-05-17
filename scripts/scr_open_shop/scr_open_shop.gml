@@ -19,8 +19,13 @@ function scr_open_shop(name,prices,des){
 	if(prices[3]!=0){pricestring+=string("Dung: {0}\n",prices[3])if(obj_bohrer.dung<prices[3]){obj_shop.prerequisite=false}}
 	if(prices[4]!=0){pricestring+=string("Sappling: {0}\n",prices[4])if(obj_trees.sappling<prices[4]){obj_shop.prerequisite=false}}
 	obj_shop.pricestring=pricestring
-	
-
+	if(obj_shop.prerequisite){
+		obj_buyButton.image_index = 0
+	}
+	else {
+		obj_buyButton.image_index = 1
+	}
+obj_shop.plantid=noone
 obj_shop.maxspeed_mod=1
 obj_shop.efficency_mod=1
 obj_shop.effectivness_mod=1
