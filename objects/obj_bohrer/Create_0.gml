@@ -17,4 +17,4 @@ iron_speed=1
 
 coal=50
 iron=50
-dung=0
+dung=60

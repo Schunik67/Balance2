@@ -17,7 +17,9 @@ if(obj_shop.plantid!=noone){obj_shop.plantid.stage++
 if(obj_shop.slotbuy){
 	instance_create_layer( obj_trees.x_coords[ obj_trees.trees_amount], obj_trees.GARDEN_Y, "Instances_1", obj_plant);
  obj_trees.trees_amount++
-}}
+}
 scr_close_shop()
+}
+
 
 }

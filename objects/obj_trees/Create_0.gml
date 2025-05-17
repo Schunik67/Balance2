@@ -10,7 +10,7 @@ oxygen=80
 
 wood=100
 woodchange = 0
-sappling=0
+sappling=60
 
 
 
