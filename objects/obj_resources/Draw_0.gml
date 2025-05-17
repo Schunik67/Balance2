@@ -17,8 +17,8 @@ draw_sprite(sWood, 0, x, y+10)
 draw_sprite(sIron, 0, x, y+20)
 
 //temp
-draw_text_transformed(x, y+40, "Ox: " +string(floor(obj_trees.oxygen)), 0.5, 0.5, image_angle)
-draw_text_transformed(x, y+50, "Xp" +string(floor(obj_engine.xp)), 0.5, 0.5, image_angle)
+//draw_text_transformed(x, y+40, "Ox: " +string(floor(obj_trees.oxygen)), 0.5, 0.5, image_angle)
+//draw_text_transformed(x, y+50, "Xp" +string(floor(obj_engine.xp)), 0.5, 0.5, image_angle)
 
 
 draw_set_valign(fa_bottom)

@@ -2,7 +2,7 @@ level =1
 xp=0
 xp_cap = 100
 time=0
-cycle_time=1
+cycle_time=2
 paused = false
 engine_paused=false
 
