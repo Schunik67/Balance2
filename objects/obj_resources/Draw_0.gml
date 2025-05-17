@@ -15,10 +15,7 @@ draw_text_transformed(x, y+30, "level" +string(floor(obj_engine.level)), 0.5, 0.
 draw_sprite(sCoal, 0, x, y)
 draw_sprite(sWood, 0, x, y+10)
 draw_sprite(sIron, 0, x, y+20)
-draw_text_transformed(x+10, y, string(floor(obj_bohrer.coal)), 0.5, 0.5, image_angle)
-draw_text_transformed(x+10, y+10, string(floor(obj_trees.wood)), 0.5, 0.5, image_angle)
-draw_text_transformed(x+10, y+20, string(floor(obj_bohrer.iron)), 0.5, 0.5, image_angle)
-//draw_text_transformed(x+10, y+30, string(floor(obj_bohrer.gold)), 0.5, 0.5, image_angle)
+
 //temp
 draw_text_transformed(x, y+40, "Ox: " +string(floor(obj_trees.oxygen)), 0.5, 0.5, image_angle)
 draw_text_transformed(x, y+50, "Xp" +string(floor(obj_engine.xp)), 0.5, 0.5, image_angle)
