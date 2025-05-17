@@ -1,7 +1,7 @@
 function scr_pause(){
-	obj_bohrer.paused = !obj_bohrer.paused;
+	obj_engine.paused = !obj_engine.paused;
 
-	if(obj_bohrer.paused){
+	if(obj_engine.paused){
 		obj_bohrer.image_speed=0
 		obj_bohrer.scrolling=false
 	}
