@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shop",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_driller",
+  "eventList":[],
   "managed":true,
-  "name":"obj_shop",
+  "name":"obj_driller",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sShopbg",
-    "path":"sprites/sShopbg/sShopbg.yy",
+    "name":"sDriller",
+    "path":"sprites/sDriller/sDriller.yy",
   },
   "spriteMaskId":null,
   "visible":true,

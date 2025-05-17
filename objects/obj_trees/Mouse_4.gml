@@ -1,3 +1,4 @@
-instance_create_layer(x_coords[trees_amount], GARDEN_Y, "Instances_1", obj_plant);
-trees_amount++
-trees_amount=clamp(trees_amount,0,3)
+if(!obj_engine.paused && trees_amount <4){
+	scr_open_shop("Slot Upgrade", [0, 10 ,10,0,0], "+1 Slot")
+	obj_shop.slotbuy=true
+}

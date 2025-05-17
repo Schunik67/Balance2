@@ -15,10 +15,6 @@ bohrer_max_speed =20
 coal_speed=5
 iron_speed=1
 
-
-
-
-
-
 coal=50
 iron=50
+dung=0

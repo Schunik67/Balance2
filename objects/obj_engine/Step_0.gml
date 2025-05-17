@@ -1,7 +1,7 @@
  
-if(!paused ){
+if(!paused){
 time++
-
+if(!obj_engine.engine_paused){
 if(time%cycle_time==0){
 xp+=10
 if(xp>level*xp_cap){
@@ -13,6 +13,9 @@ if(obj_bohrer.coal-coal_consumption*engine_consumption>=0 && obj_trees.oxygen-ox
 obj_bohrer.coal-=coal_consumption*engine_consumption
 obj_trees.oxygen-=oxygen_consumption*engine_consumption
 }else{
-	obj_game_over.visible=true
-}
+	gameOver()
 }}
+}}
+if(engine_cooldown>0){
+	engine_cooldown--
+}

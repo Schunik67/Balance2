@@ -1,19 +1,21 @@
 visible = false
-prerequisite=false
+prerequisite=true
 //loc
 //shop_header = "Hallo Welt"
 shop_header = "Upgrade"
 shop_des="DES"
-coal_price=0
-iron_price=0
-wood_price=0
+//coal,iron,wood,dung,sappling
+prices=[0,0,0,0,0]
+pricestring=""
 
+slotbuy=false
 
 maxspeed_mod=1
 efficency_mod=1
 effectivness_mod=1
 enginespeed_mod=1
 storage_mod=1
+prices_mod=1
 
 
 

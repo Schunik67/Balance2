@@ -4,7 +4,7 @@ xp_cap = 100
 time=0
 cycle_time=1
 paused = false
-
+engine_paused=false
 
 storage=100
 
@@ -16,6 +16,7 @@ iron_consumption=0
 
 
 effectivness=0.5
+engine_cooldown = 0
 
 
 
