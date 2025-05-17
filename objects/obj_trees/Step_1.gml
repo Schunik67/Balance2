@@ -6,3 +6,4 @@ if(tree_time%30==0) {
 	oxygen+=oxygen_speed
 	
 }
+
