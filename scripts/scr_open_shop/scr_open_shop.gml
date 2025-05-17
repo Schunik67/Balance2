@@ -17,7 +17,7 @@ function scr_open_shop(name,prices,des){
 	if(prices[1]!=0){pricestring+=string("Iron: {0}\n",prices[1])if(obj_bohrer.iron<prices[1]){obj_shop.prerequisite=false}}
 	if(prices[2]!=0){pricestring+=string("Wood: {0}\n",prices[2])if(obj_trees.wood<prices[2]){obj_shop.prerequisite=false}}
 	if(prices[3]!=0){pricestring+=string("Dung: {0}\n",prices[3])if(obj_bohrer.dung<prices[3]){obj_shop.prerequisite=false}}
-	if(prices[4]!=0){pricestring+=string("Sappling: {0}\n",prices[4])if(obj_trees.sappling<prices[4]){obj_shop.prerequisite=false}}
+	if(prices[4]!=0){pricestring+=string("Sapling: {0}\n",prices[4])if(obj_trees.sappling<prices[4]){obj_shop.prerequisite=false}}
 	obj_shop.pricestring=pricestring
 	if(obj_shop.prerequisite){
 		obj_buyButton.image_index = 0

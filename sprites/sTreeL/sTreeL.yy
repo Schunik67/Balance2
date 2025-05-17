@@ -23,7 +23,7 @@
   ],
   "name":"sTreeL",
   "nineSlice":null,
-  "origin":6,
+  "origin":7,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":15,
     "yorigin":33,
   },
   "swatchColours":null,

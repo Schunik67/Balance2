@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTree",
-    "path":"sprites/sTree/sTree.yy",
+    "name":"sGrass",
+    "path":"sprites/sGrass/sGrass.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -7,20 +7,17 @@ if(!obj_engine.paused){
 		}
 	}
 	
-	switch(stage){
-		case 1: scr_open_shop("A seedy place", [0,0 ,0,0,1], "Plants a sappling");
-		break;
+	
+		if(stage==1){ scr_open_shop("A seedy place", [0,0 ,0,0,1], "Plants a sapling")}
+		if(stage>1&&stage<4){scr_open_shop("Growth",[0,0 ,0,treecounter+1,power(2,treecounter)],"grow your sapling")}
+		
 			
-		case 2: scr_open_shop("A seedy place", [0,0 ,0,treecounter+1,power(2,treecounter)], "Plants a sappling");
-		break;
+		
 	
 
 
-}
+
 obj_shop.plantid=id
 }
 
 
-if(!obj_engine.paused){
-scr_open_shop("Bohrer Upgrade", [10, 10,0,0,0], "10% Yield")
-obj_shop.efficency_mod=1.1}

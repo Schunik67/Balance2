@@ -1,4 +1,5 @@
 stage=1
+tree=irandom(4)	
 visible=true
 	switch(stage) {
 			case 2:

@@ -15,8 +15,10 @@ obj_bohrer.bohrer_max_speed*=obj_shop.maxspeed_mod
 if(obj_shop.plantid!=noone){obj_shop.plantid.stage++
 	}
 if(obj_shop.slotbuy){
-	instance_create_layer( obj_trees.x_coords[ obj_trees.trees_amount], obj_trees.GARDEN_Y, "Instances_1", obj_plant);
- obj_trees.trees_amount++
+	var plant_inst=instance_create_layer( obj_trees.x_coords[ obj_trees.plot_amount], obj_trees.GARDEN_Y, "Instances_1", obj_plant);
+	var axe_inst =instance_create_layer( obj_trees.x_coords[ obj_trees.plot_amount], obj_trees.GARDEN_Y+10, "Instances_3", obj_axeButton);
+	axe_inst.plant_id=plant_inst
+ obj_trees.plot_amount++
 }
 scr_close_shop()
 }

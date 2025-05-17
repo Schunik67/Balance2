@@ -1,5 +1,5 @@
 
-if(obj_engine.time%30)
+if(obj_engine.time%30){
 		switch(stage) {
 			case 0:
 				break
@@ -12,5 +12,10 @@ if(obj_engine.time%30)
 				
 				break
 			case 3:
-				sprite_index=sTreeS		
-		}
+				scr_randomTree(id,tree)
+				break
+			case 4:
+				sprite_index=sTreeXXXL
+				break
+				
+		}}
