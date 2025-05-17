@@ -5,13 +5,16 @@ time=0
 cycle_time=30
 paused = false
 
-engine_speed=20
+storage=100
+
+
+engine_speed=10
 coal_consumption=1
 oxygen_consumption=1
 iron_consumption=0
-co2=20
+
 
 effectivness= 2
-emissions=5
+
 
 

@@ -1,3 +1,4 @@
+
 if(!paused){
 time++
 
@@ -10,7 +11,5 @@ if(xp>level*xp_cap){
 var engine_consumption=engine_speed*effectivness
 obj_bohrer.coal-=coal_consumption*engine_consumption
 obj_trees.oxygen-=oxygen_consumption*engine_consumption
-co2-=emissions*engine_consumption
-
 }
 }

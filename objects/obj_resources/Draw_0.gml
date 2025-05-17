@@ -7,7 +7,7 @@ draw_text_transformed(x, y+10, "Wood: " +string(floor(obj_trees.wood)), 0.5, 0.5
 draw_text_transformed(x, y+20, "Iron: " +string(floor(obj_bohrer.iron)), 0.5, 0.5, image_angle)
 draw_text_transformed(x, y+30, "Gold: " +string(floor(obj_bohrer.gold)), 0.5, 0.5, image_angle)
 //temp
-draw_text_transformed(x, y+40, "Ox" +string(floor(obj_trees.oxygen)), 0.5, 0.5, image_angle)
+draw_text_transformed(x, y+40, "Ox: " +string(floor(obj_trees.oxygen)), 0.5, 0.5, image_angle)
 draw_text_transformed(x, y+50, "Xp" +string(floor(obj_engine.xp)), 0.5, 0.5, image_angle)
 draw_text_transformed(x, y+60, "level" +string(floor(obj_engine.level)), 0.5, 0.5, image_angle)
 

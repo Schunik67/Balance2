@@ -1,3 +1,4 @@
+
 if(!obj_engine.paused){
 
 if scrolling == true {
@@ -8,13 +9,20 @@ if scrolling == true {
 
 if(obj_engine.time%obj_engine.cycle_time==0){
 //Bohrer Ertrag
-coal+=random(bohrer_speed*coal_speed*efficiency)
-iron+=random(bohrer_speed*efficiency*iron_speed)
-gold+=random(bohrer_speed*efficiency*gold_speed)
-//Bohrer Verbrauch
+
+if(bohrer_max_speed<obj_engine.engine_speed){
+//gameover
+}else{
+var effectivespeed=obj_engine.engine_speed*efficiency
+coal+=random(effectivespeed*coal_speed)
+iron+=random( effectivespeed*iron_speed)
+gold+=random( effectivespeed*gold_speed)
 
 }
-      
+}
+coal=clamp(coal,0,1000000000)
+iron=clamp(iron,0,1000000000)   
+gold=clamp(gold,0,1000000000) 
 
 }
 
