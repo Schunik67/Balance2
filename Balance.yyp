@@ -38,6 +38,7 @@
     {"id":{"name":"font_nes","path":"fonts/font_nes/font_nes.yy",},},
     {"id":{"name":"obj_bohrer","path":"objects/obj_bohrer/obj_bohrer.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
+    {"id":{"name":"obj_engine","path":"objects/obj_engine/obj_engine.yy",},},
     {"id":{"name":"obj_resources","path":"objects/obj_resources/obj_resources.yy",},},
     {"id":{"name":"obj_shop","path":"objects/obj_shop/obj_shop.yy",},},
     {"id":{"name":"obj_trees","path":"objects/obj_trees/obj_trees.yy",},},
