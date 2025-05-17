@@ -49,6 +49,7 @@
     {"id":{"name":"scr_pause","path":"scripts/scr_pause/scr_pause.yy",},},
     {"id":{"name":"Script4","path":"scripts/Script4/Script4.yy",},},
     {"id":{"name":"Script6","path":"scripts/Script6/Script6.yy",},},
+    {"id":{"name":"bgp","path":"sprites/bgp/bgp.yy",},},
     {"id":{"name":"s_x_close","path":"sprites/s_x_close/s_x_close.yy",},},
     {"id":{"name":"sAlphabg","path":"sprites/sAlphabg/sAlphabg.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
