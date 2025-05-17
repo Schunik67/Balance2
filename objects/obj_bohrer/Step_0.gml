@@ -7,7 +7,7 @@ if scrolling == true {
 	
 }
 
-if(obj_engine.time%obj_engine.cycle_time==0){
+if(obj_engine.time%cycle_time==0){
 //Bohrer Ertrag
 
 if(bohrer_max_speed<obj_engine.engine_speed){

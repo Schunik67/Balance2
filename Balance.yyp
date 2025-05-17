@@ -58,6 +58,7 @@
     {"id":{"name":"sDrillAnimated","path":"sprites/sDrillAnimated/sDrillAnimated.yy",},},
     {"id":{"name":"sDriller","path":"sprites/sDriller/sDriller.yy",},},
     {"id":{"name":"sDrillStop","path":"sprites/sDrillStop/sDrillStop.yy",},},
+    {"id":{"name":"sEngine","path":"sprites/sEngine/sEngine.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"sShopbg","path":"sprites/sShopbg/sShopbg.yy",},},

@@ -1,4 +1,4 @@
-
+cycle_time=10
 
 
 
@@ -12,7 +12,7 @@ tunnel_x = 0;
 efficiency = 0.5
 
 bohrer_max_speed =20
-coal_speed=1
+coal_speed=5
 iron_speed=1
 gold_speed=1
 

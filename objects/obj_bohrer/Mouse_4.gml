@@ -1,0 +1,1 @@
+scr_open_shop("Bohrer Upgrade", [10, 10, 10], "10% Yield")
