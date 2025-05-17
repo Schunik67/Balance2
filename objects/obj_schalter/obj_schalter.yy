@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button",
+  "%Name":"obj_schalter",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button",
+  "name":"obj_schalter",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
+    "name":"sSchallter",
+    "path":"sprites/sSchallter/sSchallter.yy",
   },
   "spriteMaskId":null,
   "visible":true,
