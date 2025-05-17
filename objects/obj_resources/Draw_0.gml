@@ -2,7 +2,7 @@ draw_set_valign(fa_top)
 draw_set_halign(fa_left)
 draw_set_font(font_nes)
 
-
+draw_sprite(sBorder, 0, x, y)
 draw_text_transformed(x+10, y, string(floor(obj_bohrer.coal)), 0.5, 0.5, image_angle)
 draw_text_transformed(x+10, y+10, string(floor(obj_trees.wood)), 0.5, 0.5, image_angle)
 draw_text_transformed(x+10, y+20, string(floor(obj_bohrer.iron)), 0.5, 0.5, image_angle)

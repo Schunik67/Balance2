@@ -55,6 +55,7 @@
     {"id":{"name":"sAlphabg_red","path":"sprites/sAlphabg_red/sAlphabg_red.yy",},},
     {"id":{"name":"sAlphabg","path":"sprites/sAlphabg/sAlphabg.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
+    {"id":{"name":"sBorder","path":"sprites/sBorder/sBorder.yy",},},
     {"id":{"name":"sCoal","path":"sprites/sCoal/sCoal.yy",},},
     {"id":{"name":"sDrillAnimated","path":"sprites/sDrillAnimated/sDrillAnimated.yy",},},
     {"id":{"name":"sDriller","path":"sprites/sDriller/sDriller.yy",},},
