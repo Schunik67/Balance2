@@ -1,3 +1,3 @@
-visible = true
+//visible = true
 //obj_bohrer.image_speed=0
-scr_pause()
+//scr_pause()

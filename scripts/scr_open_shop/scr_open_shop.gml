@@ -1,5 +1,5 @@
 function scr_open_shop(name,prices,des,price_mod_on){
-	
+	audio_play_sound(sfx_click, 1000,false, 0.8)
 	obj_shop.slotbuy=false
 	obj_shop.prices_mod_on=price_mod_on
 	if(price_mod_on){
@@ -7,6 +7,7 @@ function scr_open_shop(name,prices,des,price_mod_on){
 	prices[i]=prices[i]*obj_shop.prices_mod
 	}}
 	call_id=noone
+	
 	obj_Shop_preview.y=obj_Shop_preview.Y_Shop_preview
 	obj_Shop_preview.x=obj_Shop_preview.X_Shop_preview
 	obj_shop.prerequisite=true
@@ -39,7 +40,7 @@ obj_shop.enginespeed_mod=1
 obj_shop.storage_mod=1
 obj_shop.coal_consumption_mod=1
 obj_shop.oxygen_consumption_mod=1
-
+obj_shop.boost_mod=1
 	
 	
 	scr_pause()

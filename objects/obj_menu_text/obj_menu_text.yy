@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_start_game",
+  "%Name":"obj_menu_text",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_start_game",
+  "name":"obj_menu_text",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sButton_no_border",
-    "path":"sprites/sButton_no_border/sButton_no_border.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

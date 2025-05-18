@@ -9,13 +9,13 @@ x_pos = 0;
 tunnel_x = 0;
 
 
-efficiency = 0.5
+efficiency = 1
 
 bohrer_max_speed =20
-coal_speed=3
-iron_speed=1
-dung_speed=1
+coal_speed=4
+iron_speed=2
+dung_speed=2
 
-coal=50
-iron=50
-dung=60
+coal=20
+iron=5
+dung=1

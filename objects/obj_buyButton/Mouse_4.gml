@@ -11,6 +11,7 @@ obj_engine.oxygen_consumption*=obj_shop.oxygen_consumption_mod
 if(obj_shop.prices_mod_on ){obj_shop.prices_mod*=1.05}
 obj_engine.engine_speed*=obj_shop.enginespeed_mod
 obj_engine.effectivness*=obj_shop.effectivness_mod
+obj_boostButton.boostwert*=obj_shop.boost_mod
 obj_engine.storage*=obj_shop.storage_mod
 obj_bohrer.efficiency*=obj_shop.efficency_mod
 obj_bohrer.bohrer_max_speed*=obj_shop.maxspeed_mod
@@ -24,7 +25,10 @@ if(obj_shop.slotbuy){
 	axe_inst.plant_id=plant_inst
  obj_trees.plot_amount++
 }
+audio_play_sound(sfx_click, 1002, false, 0.8)
 scr_close_shop()
+}else{
+	audio_play_sound(sfx_cannoy_buy, 1001, false, 0.8)
 }
 
 

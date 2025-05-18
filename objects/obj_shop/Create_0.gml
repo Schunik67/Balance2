@@ -11,6 +11,7 @@ pricestring=""
 plantid=noone
 slotbuy=false
 
+boost_mod=1
 maxspeed_mod=1
 efficency_mod=1
 effectivness_mod=1

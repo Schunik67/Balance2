@@ -9,13 +9,13 @@ if(xp>level*xp_cap){
 	xp=0
 }
 var engine_consumption=power(engine_speed,1.5)/effectivness
-if(obj_bohrer.coal-coal_consumption*obj_boostButton.boosting*engine_consumption>=0 && obj_trees.oxygen-oxygen_consumption*obj_boostButton.boosting*engine_consumption>=0){
-obj_bohrer.coal-=coal_consumption*obj_boostButton.boosting*engine_consumption
+if(obj_bohrer.coal-coal_consumption*power(obj_boostButton.boosting,2)*engine_consumption>0 && obj_trees.oxygen-oxygen_consumption*obj_boostButton.boosting*engine_consumption>0){
+obj_bohrer.coal-=coal_consumption*power(obj_boostButton.boosting,2)*engine_consumption
 obj_trees.oxygen-=oxygen_consumption*obj_boostButton.boosting*engine_consumption
 }else{
 	gameOver()
 }}
-}}
+}
 if(engine_cooldown>0){
 	engine_cooldown--
-}
+}}

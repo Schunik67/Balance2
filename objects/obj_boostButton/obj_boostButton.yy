@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBoostGui",
-    "path":"sprites/sBoostGui/sBoostGui.yy",
+    "name":"sBoostGuiOff",
+    "path":"sprites/sBoostGuiOff/sBoostGuiOff.yy",
   },
   "spriteMaskId":null,
   "visible":true,

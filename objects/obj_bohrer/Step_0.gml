@@ -14,8 +14,8 @@ if(!obj_engine.paused&&!obj_engine.engine_paused){
 		else{
 			var effectivespeed=obj_engine.engine_speed*efficiency
 			coal+=random(effectivespeed*coal_speed)
-			iron+=random( effectivespeed*iron_speed)
-			dung+=random( effectivespeed*dung_speed)
+			iron+=random( effectivespeed*iron_speed*obj_boostButton.boosting)
+			dung+=random( effectivespeed*dung_speed*obj_boostButton.boosting)
 			image_speed = 0
 		}
 	}

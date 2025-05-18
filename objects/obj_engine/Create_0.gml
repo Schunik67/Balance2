@@ -11,7 +11,7 @@ storage=100
 
 engine_speed=0.1
 coal_consumption=0.3
-oxygen_consumption=1
+oxygen_consumption=1.23
 upgrade_level=0
 
 
