@@ -15,7 +15,7 @@ obj_engine.storage*=obj_shop.storage_mod
 obj_bohrer.efficiency*=obj_shop.efficency_mod
 obj_bohrer.bohrer_max_speed*=obj_shop.maxspeed_mod
 if(obj_shop.call_id!=noone){
-obj_bohrer.call_id.upgrade_level++}
+obj_shop.call_id.upgrade_level++}
 if(obj_shop.plantid!=noone){obj_shop.plantid.stage++
 	}
 if(obj_shop.slotbuy){
