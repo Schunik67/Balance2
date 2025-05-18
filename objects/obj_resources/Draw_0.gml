@@ -21,9 +21,9 @@ draw_sprite(sIron, 0, x, y+20)
 //draw_text_transformed(x, y+50, "Xp" +string(floor(obj_engine.xp)), 0.5, 0.5, image_angle)
 
 
-draw_set_valign(fa_bottom)
-draw_set_halign(fa_right)
-draw_text_transformed(320, 180,string(floor(obj_bohrer.x_pos/30))+"m", 0.5, 0.5, image_angle )
+draw_set_valign(fa_middle)
+draw_set_halign(fa_center)
+draw_text_transformed(52, 167,string(floor(obj_bohrer.x_pos/30))+"m", 0.5, 0.5, image_angle )
 
 
 

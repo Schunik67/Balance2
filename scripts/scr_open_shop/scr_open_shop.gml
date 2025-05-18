@@ -3,11 +3,13 @@ function scr_open_shop(name,prices,des){
 	for(var i=0;i<5;i++){
 	prices[i]=prices[i]*obj_shop.prices_mod
 	}
-	
+	obj_Shop_preview.y=obj_Shop_preview.Y_Shop_preview
+	obj_Shop_preview.x=obj_Shop_preview.X_Shop_preview
 	obj_shop.prerequisite=true
 	obj_shop.visible=true
 	obj_x_close.visible=true
 	obj_buyButton.visible=true
+	obj_Shop_preview.visible=true
 	
 	obj_shop.shop_header=name
 	obj_shop.shop_des=des
