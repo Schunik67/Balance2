@@ -1,5 +1,6 @@
 if(!obj_engine.paused && !obj_engine.engine_paused){
 if(obj_trees.oxygen<20){
+	
 	obj_boostButton.boosting=1
 	obj_engine.engine_speed/=2
 	}
