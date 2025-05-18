@@ -12,7 +12,7 @@ storage=100
 engine_speed=0.1
 coal_consumption=0.3
 oxygen_consumption=1
-
+upgrade_level=0
 
 
 effectivness=0.5

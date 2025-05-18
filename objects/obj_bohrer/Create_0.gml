@@ -1,6 +1,6 @@
 cycle_time=10
 
-upgrade=0
+upgrade_level=0
 
 scrolling = true
 scroll_offset = 0;

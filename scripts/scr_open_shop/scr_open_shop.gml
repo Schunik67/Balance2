@@ -1,8 +1,12 @@
-function scr_open_shop(name,prices,des){
+function scr_open_shop(name,prices,des,price_mod_on){
+	
 	obj_shop.slotbuy=false
+	obj_shop.prices_mod_on=price_mod_on
+	if(price_mod_on){
 	for(var i=0;i<5;i++){
 	prices[i]=prices[i]*obj_shop.prices_mod
-	}
+	}}
+	call_id=noone
 	obj_Shop_preview.y=obj_Shop_preview.Y_Shop_preview
 	obj_Shop_preview.x=obj_Shop_preview.X_Shop_preview
 	obj_shop.prerequisite=true

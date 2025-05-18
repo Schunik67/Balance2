@@ -8,12 +8,14 @@ obj_bohrer.dung-=obj_shop.prices[3]
 obj_trees.sappling-=obj_shop.prices[4]
 obj_engine.coal_consumption*=obj_shop.coal_consumption_mod
 obj_engine.oxygen_consumption*=obj_shop.oxygen_consumption_mod
-obj_shop.prices_mod*=1.05
+if(obj_shop.prices_mod_on ){obj_shop.prices_mod*=1.05}
 obj_engine.engine_speed*=obj_shop.enginespeed_mod
 obj_engine.effectivness*=obj_shop.effectivness_mod
 obj_engine.storage*=obj_shop.storage_mod
 obj_bohrer.efficiency*=obj_shop.efficency_mod
 obj_bohrer.bohrer_max_speed*=obj_shop.maxspeed_mod
+if(obj_shop.call_id!=noone){
+obj_bohrer.call_id.upgrade_level++}
 if(obj_shop.plantid!=noone){obj_shop.plantid.stage++
 	}
 if(obj_shop.slotbuy){
