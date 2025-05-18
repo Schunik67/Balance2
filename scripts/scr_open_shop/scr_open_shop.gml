@@ -31,7 +31,8 @@ obj_shop.efficency_mod=1
 obj_shop.effectivness_mod=1
 obj_shop.enginespeed_mod=1
 obj_shop.storage_mod=1
-
+obj_shop.coal_consumption_mod=1
+obj_shop.oxygen_consumption_mod=1
 
 	
 	

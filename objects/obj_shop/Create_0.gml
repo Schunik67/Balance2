@@ -17,7 +17,8 @@ effectivness_mod=1
 enginespeed_mod=1
 storage_mod=1
 prices_mod=1
-
+coal_consumption_mod=1
+oxygen_consumption_mod=1
 
 
  
