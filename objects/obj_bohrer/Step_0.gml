@@ -15,11 +15,13 @@ if(!obj_engine.paused&&!obj_engine.engine_paused){
 			var effectivespeed=obj_engine.engine_speed*efficiency
 			coal+=random(effectivespeed*coal_speed)
 			iron+=random( effectivespeed*iron_speed)
+			dung+=random( effectivespeed*dung_speed)
 			image_speed = 0
 		}
 	}
-	coal=clamp(coal,0,1000000000)
-	iron=clamp(iron,0,1000000000)   
+	coal=clamp(coal,0,obj_engine.storage)
+	iron=clamp(iron,0,obj_engine.storage)
+	dung=clamp(dung,0,obj_engine.storage)
  
 
 }
