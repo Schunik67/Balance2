@@ -1,16 +1,9 @@
 
 
-if(obj_engine.time%obj_engine.cycle_time==0) {
-	var treecounter=0
-	for(var i=0;i< instance_number(obj_plant);i++){
-		var inst=instance_find(obj_plant,i)
-		if(inst.stage>2){
-			treecounter++
-		}
-	}
-	woodchange = random(tree_speed)*plot_amount
+if(obj_engine.time%obj_engine.cycle_time==0 && !obj_engine.paused) {
+	var treecounter=scr_TreeCounter()
 	
-	oxygen+=oxygen_speed
+	 	oxygen+=random(tree_speed)*power(1.2,treecounter-1)-1
 	
 }
 
