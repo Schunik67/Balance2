@@ -1,3 +1,3 @@
 obj_engine.engine_paused=!obj_engine.engine_paused
-
+obj_boostButton.boosting=1
 image_index=obj_engine.engine_paused
