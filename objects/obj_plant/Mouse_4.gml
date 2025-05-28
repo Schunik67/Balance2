@@ -5,7 +5,7 @@ if(stage==1){
 			scr_SpriteFix(sPotSappling,1.5)}
 if(stage>1){
 	
-	if(stage>2){
+	if(stage>2 && stage<8){
 		scr_open_shop("Growth",[0,0 ,0,treecounter+1,power(2,treecounter)],"grow your tree",false)
 		}
 	else{scr_open_shop("Growth",[0,0 ,0,treecounter+1,power(2,treecounter)],"grow your sapling",false)}

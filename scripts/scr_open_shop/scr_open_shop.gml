@@ -15,7 +15,7 @@ function scr_open_shop(name,prices,des,price_mod_on){
 	obj_x_close.visible=true
 	obj_buyButton.visible=true
 	obj_Shop_preview.visible=true
-	
+
 	obj_shop.shop_header=name
 	obj_shop.shop_des=des
 	obj_shop.prices=prices
